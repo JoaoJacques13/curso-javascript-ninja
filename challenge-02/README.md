@@ -50,23 +50,23 @@ function novaFuncao(x, y, z) {
 ... if (x == undefined || y == undefined || z == undefined) {
 ..... 'Preencha todos os valores corretamente!';
 ..... } else {
-..... return x * y * z;
+..... return (x * y * z) + 2;
 ..... }
 ... }
 
 // Invoque a função criada acima, passando só dois números como argumento.
 novaFuncao(2,3)
-undefined
+'Preencha todos os valores corretamente!'
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-/* undefined */
+/* 'Preencha todos os valores corretamente!'; */
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
 > novaFuncao(2, 3, 4)
-24
+26
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-// 24
+// 26
 
 /*
 Crie uma função com as seguintes características:
